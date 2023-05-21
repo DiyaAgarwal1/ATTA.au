@@ -95,6 +95,7 @@ ul li a:hover {
 
 .login:hover,
 .contact:hover {
+	text-decoration: none;
 	background-color: #fff;
 	color: #1d1832;
 }
@@ -643,7 +644,66 @@ footer {
 	footer .social-icons {
 		margin-left: 74px;
 	}
+	div.map {
+		flex-direction: column;
+	  }
+	
+	  div.map div.leftmap,
+	  div.map div.rightmap {
+		width: 700px;
+	  }
+	 /*.rightmap {
+		position: relative;
+		width: 100%;
+		height: 600px;
+		margin: 0 auto;
+	  }
+	
+	  .rightmap iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: 0;
+	  } */
+
 }
+
+div.map{
+    background-color: rgb(244,244,244);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  div.map div.leftmap{
+    width: 49%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  div.map div.rightmap{
+    width: 49.8%;
+  }
+  div.butconsm{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c1a081;
+    color: white;
+    border: 2px solid #c1a081;
+    text-decoration: none;
+   }
+   div.butconsm a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.09rem;
+    font-size: 16px;
+    font-weight: bold;
+   }
+
 
   
   
